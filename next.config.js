@@ -23,12 +23,7 @@ const nextConfig = {
 				destination: "https://github.com/barisbored",
 				permanent: true,
 			},
-			{
-				source: "/posts/:slug",
-				destination: "https://fancy4work.com/:slug",
-				basePath: false,
-				permanent: true,
-			},
+			
 			{
 				source: "/youtube",
 				destination: "https://www.youtube.com/@barisbored",
